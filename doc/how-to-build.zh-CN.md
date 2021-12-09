@@ -31,13 +31,16 @@
    # install openssl
    $ sudo apt-get install openssl
    ```
-
+   如果编译提示openssl/opensslv.h: No such file or directory错误还需要安装libssl-dev
+   ```console
+   $ sudo apt-get install libssl-dev
+   ```
 2. 你的gcc支持C++17特性。 
 
 ## 2. 编译
 
 ```console
-$ git clone -b linux --single-branch https://github.com/DoubleLabyrinth/navicat-keygen.git
+$ git clone -b linux --single-branch https://github.com/aborover/navicat-keygen.git
 $ cd navicat-keygen
 $ make all
 ```
