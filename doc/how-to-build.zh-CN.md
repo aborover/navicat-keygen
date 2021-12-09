@@ -40,7 +40,7 @@
 ## 2. 编译
 
 ```console
-$ git clone -b linux --single-branch https://github.com/aborover/navicat-keygen.git
+$ git clone -b linux --single-branch https://github.com/DoubleLabyrinth/navicat-keygen.git
 $ cd navicat-keygen
 $ make all
 ```
